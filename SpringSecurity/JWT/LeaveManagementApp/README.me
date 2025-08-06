@@ -1,0 +1,21 @@
+Employee Leave Management System (ELMS)
+
+A complete Spring Boot application to manage employee leave requests, approvals, and leave policies in an organization. 
+Built with JWT-based security, role-based access control, scheduled leave accrual, and integrated with Swagger documentation.
+
+Features
+JWT Authentication & Role-based Authorization
+        Roles: ADMIN, MANAGER, EMPLOYEE
+
+Apply, Approve & Reject Leave Requests
+        Employees can apply leaves
+        Managers can approve/reject only their team’s leaves
+
+Leave Policy Management
+        Admin can define monthly accrual (e.g., 1.5 leaves/month)
+
+Scheduled Jobs
+        Automatic leave balance updates on the 1st of every month
+
+Secure Password Handling
+        Spring Security with BCrypt
